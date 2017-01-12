@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rake'
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.2.0'
+gem 'carrierwave', '~> 0.11.2'
+gem 'mini_magick', '~> 4.5', '>= 4.5.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -55,3 +57,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+

@@ -1,17 +1,18 @@
 require_relative 'boot'
-
+require 'active_record'
+# require 'attachinary/orm/active_record'
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(*Rails.groups)
+# Bundler.require(*Rails.groups)
 
-module Pinteresting
-  class Application < Rails::Application
-    # Settings in config/environments/* take precedence over those specified here.
-    # Application configuration should go into files in config/initializers
-    # -- all .rb files in that directory are automatically loaded.
-  #required from Heroku
-  config.assets.initialize_on_precompile = false
-  end
-end
+# module Pinteresting
+#   class Application < Rails::Application
+#     # Settings in config/environments/* take precedence over those specified here.
+#     # Application configuration should go into files in config/initializers
+#     # -- all .rb files in that directory are automatically loaded.
+#   #required from Heroku
+#   config.assets.initialize_on_precompile = false
+#   end
+
